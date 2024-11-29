@@ -1,0 +1,67 @@
+.mdc-top-app-bar_row{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #21ad38; 
+    color: white;
+    top: 0;
+    left: 0;
+  }
+  .logo{
+      display:flex;
+      align-items: right;
+  }
+  .logo img {
+      width: 30%;
+      height: 10%;
+      margin-right: 10px;
+  }
+  .searchbar {
+      display:flex;
+      max-width: 100%;
+      display: flex;
+      align-items: center;
+  }
+  .mdc-text-field__input{
+      width: 100%;
+      padding: 10px 10px 10px 20px; 
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-image: url('https://fonts.gstatic.com/s/i/materialicons/search/v6/24px.svg');
+      background-repeat: no-repeat;
+      background-size: 5dvh;
+      background-position: left;
+  }
+  .mdc-tex-filed__input::placeholder{
+      color:white;
+      opacity: 1;
+  }
+  .mdc-text-field {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 0 8px;
+  }
+  .icons .material-icons {
+      position:absolute;
+      font-size: 24px;
+      margin: 10px;
+      cursor: pointer;
+  }
+  @media (max-width: 600px) {
+    .logo-image {
+      display: none;
+    }
+    .menubar {
+      display: block;
+    }
+    .mdc-text-field {
+      width: 150px;
+    }
+  }
+  
+  
+          
+          
